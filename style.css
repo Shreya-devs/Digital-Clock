@@ -20,7 +20,6 @@ padding-top: 30px;
     height: 200px;
     width: 70%;
     margin-top: 200px;
-    /* border: 1px black solid; */
 }
 .item{
     display: flex;
@@ -32,9 +31,23 @@ padding-top: 30px;
     height: 100px;
     width: 200px;
     background-color: palevioletred;
-     border: 5px black solid;
+    border: 5px black solid;
 }
 .colon{
     font-size: 3rem;
     text-shadow: 10px ;
+}
+@media (max-width:480px) {
+    .container{
+    height: 200px;
+    width: 90%;
+    margin-top: 300px;
+}
+.item{
+  
+    font-size: 2rem;
+    height: 70px;
+    width: 300px;
+    background-color: plum;
+}
 }
