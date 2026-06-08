@@ -41,7 +41,7 @@ padding-top: 30px;
     .container{
     height: 200px;
     width: 90%;
-    margin-top: 300px;
+    margin-top: 250px;
 }
 .item{
   
@@ -49,6 +49,6 @@ padding-top: 30px;
     height: 70px;
     width: 300px;
     background-color: plum;
-     box-shadow: 0 ;
+    box-shadow: none;
 }
 }
