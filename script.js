@@ -9,4 +9,4 @@ const Time=()=>{
     seconds.innerText=Now.getSeconds();
 };
 Time();
-setInterval(Time(),1000)
+setInterval(Time,1000)
